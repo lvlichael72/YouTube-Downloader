@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>345</width>
-    <height>260</height>
+    <height>400</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,30 +17,43 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>110</y>
+      <x>200</x>
+      <y>300</y>
       <width>131</width>
       <height>41</height>
      </rect>
     </property>
     <property name="text">
-     <string>test</string>
+     <string>capture</string>
     </property>
    </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>50</y>
-      <width>101</width>
+      <x>20</x>
+      <y>200</y>
+      <width>271</width>
       <height>16</height>
      </rect>
     </property>
     <property name="text">
-     <string>Hello World</string>
+     <string>title</string>
     </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>271</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../Pictures/mrrobot-phpjwwvwe_1.jpeg</pixmap>
     </property>
    </widget>
   </widget>
@@ -57,22 +70,5 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
- <connections>
-  <connection>
-   <sender>pushButton</sender>
-   <signal>clicked(bool)</signal>
-   <receiver>label</receiver>
-   <slot>clear()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>175</x>
-     <y>151</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>170</x>
-     <y>78</y>
-    </hint>
-   </hints>
-  </connection>
- </connections>
+ <connections/>
 </ui>
